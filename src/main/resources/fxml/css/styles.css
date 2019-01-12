@@ -1,0 +1,39 @@
+.nav_btn {
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-pref-height: 32;
+  -fx-pref-width: 32;
+  -fx-background-color: transparent;
+}
+
+.nav_btn_connection{
+	-fx-background-image: url('../img/connection.png');
+}
+
+.nav_btn_query{
+	-fx-background-image: url('../img/query.png');
+}
+
+.nav_btn_execute{
+	-fx-background-image: url('../img/execute.png');
+}
+
+.nav_btn_backup{
+	-fx-background-image: url('../img/backup.png');
+}
+
+.nav_btn_report{
+	-fx-background-image: url('../img/report.png');
+}
+
+
+.toggle-button:selected {
+  -fx-background-image: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');
+}
+
+.split-pane:horizontal > .split-pane-divider {
+   -fx-padding: 0 0.1em 0 0.1em;  
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-padding: 0 0.1em 0 0.1em;  
+}

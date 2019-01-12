@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language JavaScript?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="768.0" prefWidth="1024.0" stylesheets="@css/styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hm.controller.MainController">
+  <children>
+    <MenuBar id="menubarUI" fx:id="menubarUI" VBox.vgrow="NEVER" />
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+         <children>
+            <BorderPane layoutX="167.0" layoutY="30.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <top>
+                  <BorderPane prefHeight="32.0" prefWidth="1014.0" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </BorderPane.margin>
+                     <center>
+                        <HBox id="navUI" fx:id="navUI" prefHeight="48.0" prefWidth="1014.0" spacing="15.0" styleClass="nav" BorderPane.alignment="CENTER">
+                           <padding>
+                              <Insets left="10.0" right="10.0" />
+                           </padding>
+                        </HBox>
+                     </center>
+                  </BorderPane>
+               </top>
+               <center>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                     <center>
+                        <SplitPane dividerPositions="0.17025440313111545, 0.8424657534246576" prefHeight="160.0" prefWidth="200.0" styleClass="main">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="679.0" prefWidth="138.0" SplitPane.resizableWithParent="false">
+                                 <children>
+                                    <TreeView layoutX="14.0" layoutY="14.0" prefHeight="679.0" prefWidth="193.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                 </children></AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="679.0" prefWidth="643.0" SplitPane.resizableWithParent="false">
+                                 <children>
+                                    <BorderPane layoutX="167.0" layoutY="81.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <center>
+                                          <SplitPane dividerPositions="0.8" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0" BorderPane.alignment="CENTER">
+                                            <items>
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" SplitPane.resizableWithParent="false" />
+                                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" SplitPane.resizableWithParent="false">
+                                                   <children>
+                                                      <BorderPane layoutX="241.0" layoutY="-47.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <center>
+                                                            <TabPane id="interfaceOneUI" fx:id="interfaceOneUI" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="ALL_TABS" BorderPane.alignment="CENTER" />
+                                                         </center>
+                                                      </BorderPane>
+                                                   </children>
+                                                </AnchorPane>
+                                            </items>
+                                          </SplitPane>
+                                       </center>
+                                    </BorderPane>
+                                 </children></AnchorPane>
+                              <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" SplitPane.resizableWithParent="false">
+                                 <children>
+                                    <TabPane layoutX="-41.0" layoutY="14.0" prefHeight="200.0" prefWidth="200.0" side="RIGHT" tabClosingPolicy="ALL_TABS" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <tabs>
+                                        <Tab text="Untitled Tab 1">
+                                          <content>
+                                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                          </content>
+                                        </Tab>
+                                        <Tab text="Untitled Tab 2">
+                                          <content>
+                                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                          </content>
+                                        </Tab>
+                                      </tabs>
+                                    </TabPane>
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </center>
+                  </BorderPane>
+               </center>
+               <bottom>
+                  <BorderPane prefHeight="20.0" prefWidth="1024.0" BorderPane.alignment="CENTER">
+                     <center>
+                        <GridPane BorderPane.alignment="CENTER">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+							<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                        </GridPane>
+                     </center>
+                  </BorderPane>
+               </bottom>
+            </BorderPane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

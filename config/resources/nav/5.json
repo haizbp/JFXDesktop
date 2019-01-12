@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Backup",
+        "action": "",
+        "clazz": "nav_btn,nav_btn_backup",
+        "type": "itm"
+    },
+    {
+        "title": "Reports",
+        "action": "",
+        "clazz": "nav_btn,nav_btn_report",
+        "type": "itm"
+    }
+]

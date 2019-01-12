@@ -1,0 +1,15 @@
+[ {
+        "title": "Help",
+        "action": "",
+        "clazz": "",
+        "type": "menu",
+        "sub": [
+		    {
+		        "title": "About Us",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    }
+        ]
+    }]

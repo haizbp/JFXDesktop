@@ -1,0 +1,26 @@
+[
+	 {
+        "title": "View",
+        "action": "",
+        "clazz": "",
+        "type": "menu",
+        "sub": [
+		    {
+		        "title": "Open console",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": [],
+		        "id": "OPEN_CONSOLE"
+		    },
+		    {
+		        "title": "New terminal",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": [],
+		        "id": "OPEN_TERMINAL"
+		    }
+        ]
+    }
+]

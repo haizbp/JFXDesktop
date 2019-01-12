@@ -1,0 +1,117 @@
+[
+	{
+        "title": "File",
+        "action": "",
+        "clazz": "",
+        "type": "menu",
+        "sub": [
+		    {
+		        "title": "New window",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": [],
+		        "id": ""
+		    },
+		    {
+		        "title": "Open",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "Open recent",
+		        "action": "",
+		        "clazz": "",
+		        "type": "menu",
+		        "sub": []
+		    },
+		    {
+		        "title": "",
+		        "action": "",
+		        "clazz": "",
+		        "type": "separator",
+		        "sub": []
+		    },
+		    {
+		        "title": "Save",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "Save as",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "",
+		        "action": "",
+		        "clazz": "",
+		        "type": "separator",
+		        "sub": []
+		    },
+		    {
+		        "title": "Close",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    }
+        ]
+    },
+    {
+        "title": "Edit",
+        "action": "",
+        "clazz": "",
+        "type": "menu",
+        "sub": [
+		    {
+		        "title": "Undo",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "Redo",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "",
+		        "action": "",
+		        "clazz": "",
+		        "type": "separator",
+		        "sub": []
+		    },
+		    {
+		        "title": "Copy",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "Paste",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    },
+		    {
+		        "title": "Delete",
+		        "action": "hm.action.MenubarAction",
+		        "clazz": "",
+		        "type": "itm",
+		        "sub": []
+		    }
+        ]
+    }
+]

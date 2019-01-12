@@ -1,0 +1,63 @@
+/**
+CONSTANT
+*/
+BorderPane, AnchorPane, MenuBar, TreeView, SplitPane, TabPane, Tab{
+    -fx-background-color: white;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-color : #e6e6e6;
+    -fx-focus-color: white;
+    -fx-faint-focus-color: white;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+   -fx-background-color: #e6e6e6;
+   -fx-padding: 0 0 0 1;
+}
+.split-pane:vertical > .split-pane-divider {
+   -fx-background-color: #e6e6e6;
+   -fx-padding: 0 1 0 0;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color:#e6e6e6;
+  -fx-border-width: 0 0 0 0;
+}
+
+.tab:selected {
+    -fx-background-color:white ;
+}
+/**
+CUSTOM
+*/
+.main{
+	-fx-border-width: 1 0 1 0;
+}
+
+.nav_btn {
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+  -fx-pref-height: 32;
+  -fx-pref-width: 32;
+  -fx-background-color: transparent;
+}
+
+.nav_btn_connection{
+	-fx-background-image: url('../img/connection.png');
+}
+
+.nav_btn_query{
+	-fx-background-image: url('../img/query.png');
+}
+
+.nav_btn_setting{
+	-fx-background-image: url('../img/setting.png');
+}
+
+.nav_btn_backup{
+	-fx-background-image: url('../img/backup.png');
+}
+
+.nav_btn_report{
+	-fx-background-image: url('../img/report.png');
+}
+
